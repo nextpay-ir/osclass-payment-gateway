@@ -1,0 +1,895 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: payment plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-22 00:04+0430\n"
+"PO-Revision-Date: 2017-04-22 00:05+0430\n"
+"Last-Translator: morteza najaf goli zadeh <me@najafgolizadeh.ir>\n"
+"Language-Team: faosclass <info@faosclass.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/conf.php:20
+msgid "Congratulations, the plugin is now configured"
+msgstr "تبریک می گوییم. افزونه پیکربندی شد"
+
+#: admin/conf.php:36
+#, php-format
+msgid "Please, change the crypt key (PAYMENT_CRYPT_KEY) in %s"
+msgstr ""
+
+#: admin/conf.php:40
+msgid "Payments settings"
+msgstr "تنظیمات پرداخت"
+
+#: admin/conf.php:50
+msgid "Premium ads"
+msgstr "آگهی ویژه"
+
+#: admin/conf.php:55
+msgid "Allow premium ads"
+msgstr "پرداخت هزینه برای آگهی ویژه"
+
+#: admin/conf.php:61
+msgid "Default premium cost"
+msgstr "هزینه پیشفرض آگهی ویژه"
+
+#: admin/conf.php:65
+msgid "Premium days"
+msgstr "روز های آگهی ویژه"
+
+#: admin/conf.php:69
+msgid "Publish fee"
+msgstr "هزینه انتشار"
+
+#: admin/conf.php:74
+msgid "Pay per post ads"
+msgstr "پرداخت هزینه برای آگهی رایگان"
+
+#: admin/conf.php:80
+msgid "Default publish cost"
+msgstr "هزینه پیشفرض انتشار"
+
+#: admin/conf.php:84
+msgid "Default currency"
+msgstr "ارز پیش‌فرض"
+
+#: admin/conf.php:93
+msgid ""
+"You could specify up to 3 'packs' that users can buy, so they don't need to "
+"pay each time they publish an ad. The credit from the pack will be stored "
+"for later uses."
+msgstr ""
+"شما می توانید سه 'بسته' مشخص کنید تا کاربران بتوانند خریداری کنند. بنابراین "
+"کاربران شما نیاز نخواهند داشت برای انتشار آگهی هر بار پرداخت انجام دهند. "
+"اعتبار بسته برای استفاده های بعدی کاربران ذخیره خواهد شد."
+
+#: admin/conf.php:97 admin/conf.php:101 admin/conf.php:105
+#, php-format
+msgid "Price of pack #%d"
+msgstr "قیمت بسته #%d"
+
+#: admin/conf.php:110
+msgid "help"
+msgstr "راهنما"
+
+#: admin/conf.php:110
+msgid "Show options"
+msgstr "نمایش تنظیمات"
+
+#: admin/conf.php:144 admin/conf_prices.php:91
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: admin/conf.php:162 admin/conf_prices.php:121 admin/conf_prices.php:139
+msgid "Cancel"
+msgstr "لغو"
+
+#: admin/conf_prices.php:9
+msgid "Category prices updated correctly"
+msgstr "هزینه دسته بدرستی بروز رسانی شد"
+
+#: admin/conf_prices.php:11 admin/conf_prices.php:20
+msgid "Category is not defined"
+msgstr "دسته بندی تعریف نشده است"
+
+#: admin/conf_prices.php:18
+msgid "Category prices changed to default"
+msgstr "هزینه دسته بندی به پیشفرض تغیر یافت"
+
+#: admin/conf_prices.php:44
+msgid "Set category prices"
+msgstr "تنظیم هزینه برای دسته بندی ها"
+
+#: admin/conf_prices.php:50
+msgid "Delete category prices"
+msgstr "حذف هزینه های دسته بندی ها"
+
+#: admin/conf_prices.php:71
+msgid "Set categories prices"
+msgstr "تنظیم هزینه برای دسته بندی ها"
+
+#: admin/conf_prices.php:71
+msgid "Add new price"
+msgstr "افزودن قیمت جدید"
+
+#: admin/conf_prices.php:81
+#, php-format
+msgid "Publish cost: %s %s"
+msgstr "هزینه انتشار: %s %s"
+
+#: admin/conf_prices.php:82
+#, php-format
+msgid "Premium cost: %s %s"
+msgstr "هزینه آگهی ویژه: %s %s"
+
+#: admin/conf_prices.php:83
+msgid "edit"
+msgstr "ویرایش"
+
+#: admin/conf_prices.php:84
+msgid "delete"
+msgstr "حذف"
+
+#: admin/conf_prices.php:105
+msgid "Category"
+msgstr "دسته بندی"
+
+#: admin/conf_prices.php:111
+msgid "Publish price"
+msgstr "هزینه انتشار"
+
+#: admin/conf_prices.php:115
+msgid "Premium price"
+msgstr "هزینه آگهی ویژه"
+
+#: admin/conf_prices.php:122
+msgid "Add"
+msgstr "افزودن"
+
+#: admin/conf_prices.php:135
+msgid ""
+"This will revert back the prices to the default ones. Do you want to "
+"continue?"
+msgstr "آیا برای انجام این عمل مطمئن هستید. این عمل غیرقابل بازگشت می باشد؟"
+
+#: admin/conf_prices.php:140
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/payment_log.php:17 admin/premium_log.php:17 admin/publish_log.php:16
+#: user/user_pay_log.php:16
+msgid "ID"
+msgstr "شناسه"
+
+#: admin/payment_log.php:18
+msgid "Description"
+msgstr "توضیحات"
+
+#: admin/payment_log.php:19 admin/premium_log.php:18 admin/publish_log.php:17
+#: user/user_pay_log.php:17
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/payment_log.php:20 user/user_pay_log.php:18
+msgid "Code"
+msgstr "کد تراکنش"
+
+#: admin/payment_log.php:21 user/user_pay_log.php:19
+msgid "Amount"
+msgstr "مبلغ"
+
+#: admin/payment_log.php:22 user/user_pay_log.php:20
+msgid "Email"
+msgstr "ایمیل"
+
+#: admin/payment_log.php:23
+msgid "UserID"
+msgstr "شناسه کاربر"
+
+#: admin/payment_log.php:24 user/user_pay_log.php:21
+msgid "ItemID"
+msgstr "شناسه آگهی"
+
+#: admin/payment_log.php:25 user/user_pay_log.php:22
+msgid "Source"
+msgstr "درگاه"
+
+#: admin/payment_log.php:26 user/user_pay_log.php:23
+msgid "Product type"
+msgstr "نوع سفارش"
+
+#: admin/payment_log.php:60 user/user_pay_log.php:53
+msgid "Premium Ads"
+msgstr "آگهی ویژه"
+
+#: admin/payment_log.php:61 user/user_pay_log.php:54
+msgid "Pack"
+msgstr "بسته"
+
+#: admin/payment_log.php:62 user/user_pay_log.php:55
+msgid "Publish Ads"
+msgstr "آگهی رایگان"
+
+#: admin/payment_log.php:63 user/user_pay_log.php:56
+msgid "WALLET PAY"
+msgstr "شارژ اکانت"
+
+#: admin/premium_log.php:19 admin/publish_log.php:18
+msgid "Paypal Log ID"
+msgstr "شناسه پرداخت"
+
+#: functions.php:95
+msgid "Pay with your credit"
+msgstr "پرداخت با اعتبار شما"
+
+#: index.php:46
+msgid "Payment plugin"
+msgstr "سیستم پرداخت"
+
+#: index.php:47
+msgid "Payment options"
+msgstr "تنظیمات پیشرفته"
+
+#: index.php:48
+msgid "Categories fees"
+msgstr "هزینه دسته بندی ها"
+
+#: index.php:49
+msgid "Premium Log"
+msgstr "گزارش ویژه ها"
+
+#: index.php:50
+msgid "Publish Log"
+msgstr "گزارش آگهی های رایگان"
+
+#: index.php:51
+msgid "payment + Log"
+msgstr "گزارش پرداخت ها"
+
+#: index.php:100 user/user_pay_log.php:11
+msgid "User Pay Log"
+msgstr "تراکنش های پرداخت ها"
+
+#: index.php:101
+msgid "Listings payment status"
+msgstr "ویژه سازی آگهی ها"
+
+#: index.php:105
+msgid "Buy credit for payments"
+msgstr "خرید اعتبار برای پرداخت ها"
+
+#: user/makepremium.php:13
+msgid "Make the ad premium"
+msgstr "ویژه ساختن آگهی"
+
+#: user/makepremium.php:16 user/payperpublish.php:16
+msgid "Item's title"
+msgstr "عنوان آگهی"
+
+#: user/makepremium.php:17 user/payperpublish.php:17
+msgid "Item's description"
+msgstr "توضیحات آگهی"
+
+#: user/makepremium.php:20
+msgid "In order to make premium your ad , it's required to pay a fee"
+msgstr "برای ویژه کردن آگهی خود باید مبلغ زیر را پرداخت نمایید"
+
+#: user/makepremium.php:21 user/payperpublish.php:21
+#, php-format
+msgid "The current fee for this category is: %d %s"
+msgstr "هزینه ارسال آگهی برای این دسته بندی برابر است با: %d %s"
+
+#: user/makepremium.php:25 user/makepremium.php:27 user/makepremium.php:30
+#, php-format
+msgid "Premium fee for item %d"
+msgstr "هزینه آگهی ویژه برای آگهی %d"
+
+#: user/makepremium.php:40 user/makepremium.php:49 user/makepremium.php:58
+#: user/makepremium.php:67 user/payperpublish.php:43 user/payperpublish.php:52
+#: user/payperpublish.php:61 user/payperpublish.php:70
+msgid "There was an error"
+msgstr "یک خطا رخ داد"
+
+#: user/makepremium.php:42
+msgid "There's no need to pay the premium fee"
+msgstr "نیازی به پرداخت هزینه آگهی ویژه نیست"
+
+#: user/makepremium.php:51
+msgid "The item is already a premium ad"
+msgstr "این آگهی در حال حاضر آگهی ویژه است"
+
+#: user/makepremium.php:60 user/payperpublish.php:63
+msgid "The item doesn not exists"
+msgstr "آگهی وجود ندارد"
+
+#: user/makepremium.php:69
+msgid "Premiums ads are not allowed"
+msgstr "آگهی ویژه مجاز نیست"
+
+#: user/menu.php:14
+msgid "Paypal & your listings"
+msgstr "آگهی های شما & ویژه سازی"
+
+#: user/menu.php:16
+msgid "You don't have any listing yet"
+msgstr "شما آگهی هنوز ارسال نکرده اید."
+
+#: user/menu.php:24
+msgid "Publication date"
+msgstr "تاریخ انتشار"
+
+#: user/menu.php:25 user/pack.php:35
+msgid "Price"
+msgstr "قیمت"
+
+#: user/menu.php:30
+msgid "Paid!"
+msgstr "پرداخت شد!"
+
+#: user/menu.php:32
+msgid "Pay for this item"
+msgstr "پرداخت برای این آگهی"
+
+#: user/menu.php:40
+msgid "Already premium!"
+msgstr "در حال حاضر ويژه است!"
+
+#: user/menu.php:42
+msgid "Make premium"
+msgstr "ویژه کردن"
+
+#: user/pack.php:17 user/pack.php:22
+#, php-format
+msgid "Credit packs. Your current credit is %s"
+msgstr "خرید بسته های اعتباری ( اعتبار فعلی شما %s است)"
+
+#: user/pack.php:24
+msgid "Your wallet is empty. Buy some credits."
+msgstr ""
+"موجودی حساب شما خالی می باشد. برای درج آگهی ویژه یکی از اعتبارات زیر را "
+"خریداری کنید."
+
+#: user/pack.php:34
+#, php-format
+msgid "Credit pack #%d"
+msgstr "بسته اعتباری #%d"
+
+#: user/pack.php:37
+#, php-format
+msgid "Credit for %s %s"
+msgstr "اعتبار برای %s %s"
+
+#: user/payperpublish.php:13
+msgid "Continue the publish process"
+msgstr "ادامه عملیات اتشار"
+
+#: user/payperpublish.php:20
+msgid ""
+"In order to make visible your ad to other users, it's required to pay a fee"
+msgstr ""
+"برای رویت آگهی شما به دیگر کاربران، لازم است تا هزینه آن را پرداخت کنید"
+
+#: user/payperpublish.php:26 user/payperpublish.php:28
+#: user/payperpublish.php:31
+#, php-format
+msgid "Publish fee for item %d"
+msgstr "هزینه پرداخت برای  آگهی %d"
+
+#: user/payperpublish.php:45 user/payperpublish.php:72
+msgid "There's no need to pay the publish fee"
+msgstr "نیازی به پرداخت هزینه انتشار وجود ندارد"
+
+#: user/payperpublish.php:54
+msgid "The publish fee is already paid"
+msgstr "هزینه انتشار در حال حاضر پرداخت شده است"
+
+#: user/wallet.php:43
+msgid "Payment processed correctly"
+msgstr "پرداخت به درستی پردازش شد"
+
+#: user/wallet.php:46
+msgid ""
+"There were some errors, please try again later or contact the administrators"
+msgstr ""
+"تعدادی خطا رخ داد. لطفا بعدا دوباره امتحان کنید یا با مدیران کل تماس بگیرید"
+
+#~ msgid "Paypal help"
+#~ msgstr "راهنمای پی پال"
+
+#, fuzzy
+#~ msgid "Blockchain help"
+#~ msgstr "تنظیمات فهرست"
+
+#, fuzzy
+#~ msgid "Braintree help"
+#~ msgstr "تنظیمات فهرست"
+
+#~ msgid ""
+#~ "BTC are not currently supported by Paypal (use only with Blockchain)."
+#~ msgstr ""
+#~ "در حال حاضر BTC توسط پی پال پشتیبانی نمی شوند  (استفاده فقط با "
+#~ "Blockchain)."
+
+#~ msgid "Paypal settings"
+#~ msgstr "تنظیمات پی پال"
+
+#~ msgid "Enable Paypal"
+#~ msgstr "فعال کردن پی پال"
+
+#~ msgid "Enable Paypal as a method of payment"
+#~ msgstr "فعال کردن پی پال برای انجام پرداخت"
+
+#~ msgid "Paypal API username"
+#~ msgstr "نام کاربری API پی پال"
+
+#~ msgid "Paypal API password"
+#~ msgstr "رمز عبور API پی پال"
+
+#~ msgid "Paypal API signature"
+#~ msgstr "امضا API پی پال"
+
+#~ msgid "Paypal email"
+#~ msgstr "ایمیل پی پال"
+
+#, fuzzy
+#~ msgid "Standard payments"
+#~ msgstr "API یا پرداخت های استاندارد؟"
+
+#, fuzzy
+#~ msgid "Paypal sandbox"
+#~ msgstr "محیط سندباکس"
+
+#, fuzzy
+#~ msgid "Blockchain settings"
+#~ msgstr "تنظیمات فهرست"
+
+#, fuzzy
+#~ msgid "Enable Blockchain"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~| msgid "Enable Paypal as a method of payment"
+#~ msgid "Enable Blockchain as a method of payment"
+#~ msgstr "فعال کردن پی پال برای انجام پرداخت"
+
+#, fuzzy
+#~ msgid "Bitcoin address"
+#~ msgstr "آدرس آی پی: %s"
+
+#, fuzzy
+#~ msgid "Braintree settings"
+#~ msgstr "تنظیمات فهرست"
+
+#, fuzzy
+#~ msgid "Enable Braintree"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~| msgid "Enable Paypal as a method of payment"
+#~ msgid "Enable Braintree as a method of payment"
+#~ msgstr "فعال کردن پی پال برای انجام پرداخت"
+
+#, fuzzy
+#~ msgid "Enable Sandbox"
+#~ msgstr "محیط سندباکس"
+
+#, fuzzy
+#~ msgid "Braintree merchant id"
+#~ msgstr "شناسه پرداخت"
+
+#, fuzzy
+#~ msgid "Braintree public key"
+#~ msgstr "کلید عمومی reCAPTCHA"
+
+#, fuzzy
+#~ msgid "Braintree private key"
+#~ msgstr "کلید خصوصی reCAPTCHA"
+
+#, fuzzy
+#~ msgid "Braintree encryption key"
+#~ msgstr "کلید API آکیسمت"
+
+#, fuzzy
+#~ msgid "Stripe settings"
+#~ msgstr "تنظیمات فهرست"
+
+#, fuzzy
+#~ msgid "Enable Stripe"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~| msgid "Enable Paypal as a method of payment"
+#~ msgid "Enable Stripe as a method of payment"
+#~ msgstr "فعال کردن پی پال برای انجام پرداخت"
+
+#, fuzzy
+#~ msgid "Stripe public key"
+#~ msgstr "کلید عمومی reCAPTCHA"
+
+#, fuzzy
+#~ msgid "Stripe public key (test)"
+#~ msgstr "کلید عمومی reCAPTCHA"
+
+#, fuzzy
+#~ msgid "CoinJar settings"
+#~ msgstr "تنظیمات فهرست"
+
+#, fuzzy
+#~ msgid "Enable CoinJar"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~| msgid "Enable Paypal as a method of payment"
+#~ msgid "Enable CoinJar as a method of payment"
+#~ msgstr "فعال کردن پی پال برای انجام پرداخت"
+
+#~ msgid "API or Standard Payments?"
+#~ msgstr "API یا پرداخت های استاندارد؟"
+
+#~ msgid ""
+#~ "API payments give you more control over the payment process, it's "
+#~ "required for digital goods & micropayments (Note: Not all countries are "
+#~ "allowed to have digital goods & micropayments processes). On the other "
+#~ "side standard payments are simple, less customizable but works everywhere."
+#~ msgstr ""
+#~ "API پرداخت ها کنترل بیشتری برای پردازش پرداخت ها به شما می دهد که آن برای "
+#~ "کالای دیجیتال و پرداخت های کوچک ضروری است (توجه: تمامی کشورها مجاز انجام "
+#~ "پرداخت های کوچک و کالاهای دیجیتال هستند). طرف دیگر پرداخت های استاندارد "
+#~ "ساده بوده و کمتر قابل تنظیم هستند اما در هر جایی کار میکنند."
+
+#~ msgid ""
+#~ "Micropayments offers a reduction on the fee to pay Paypal for orders "
+#~ "under 4$ (or equivalent), around 5cents + 5% while standard payments have "
+#~ "a fee around 30cents + 5%. Due the nature of OSClass is recommended to "
+#~ "use micropayments, but we're aware that they're not available worldwide. "
+#~ "Please check with Paypal the avalaibility of the service in your area."
+#~ msgstr ""
+#~ "پرداخت های کوچک، یک کاهش هزینه در پرداخت های پی پال زیر 4 دلار به شما "
+#~ "ارائه می دهد (یا معادل آن)، حدود 5 سنت + 5% در حالی که پرداخت های "
+#~ "استاندارد هزینه ای حدود 30 سنت + 5% دارند. با توجه به ماهیت او اس کلاس ما "
+#~ "توصیه می کنیم تا از پرداخت های کوچک استفاده کنید، اما آگاه باشید که آن در "
+#~ "سراسر جهان در دسترس نیست. لطفا با پی پال، موجود بودن این خدمات در منطقه "
+#~ "خود را بررسی کنید."
+
+#~ msgid "Setting up your Paypal account for Standard Payments"
+#~ msgstr "تنظیم حساب پی پال شما برای پرداخت های استاندارد"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduce your payment email and check the \"Use Standard Payment\" "
+#~ "option here."
+#~ msgstr ""
+#~ "معرفی ایمیل پی پال شما و چک گزینه \"استفاده از پرداخت استاندارد\" از "
+#~ "اینجا."
+
+#~ msgid ""
+#~ "You need Paypal API credentials (before entering here your API "
+#~ "credentials, MODIFY index.php file of this plugin and change the value of "
+#~ "PAYPAL_CRYPT_KEY variable to make your API more secure)"
+#~ msgstr ""
+#~ "شما به اعتبار API پی پال نیاز دارید (قبل از وارد کردن اعتبار API در "
+#~ "اینجا، فایل index.php را تغییر دهید و مقدار متغیر PAYPAL_CRYPT_KEY را "
+#~ "برای ایجاد API امن خود عوض کنید)"
+
+#~ msgid "You need to tell Paypal where is your IPN file"
+#~ msgstr ""
+#~ "شما نیاز دارید تا با پی پال گفتگو کنید تا ببینید فایل IPN شما کجاست؟"
+
+#~ msgid "Setting up your Paypal account for micropayments/API"
+#~ msgstr "تنظیم حساب پی پال شما برای پرداخت های کوچک/API"
+
+#~ msgid ""
+#~ "Before being able to use Paypal plugin, you need to set up some "
+#~ "configuration at your Paypal account"
+#~ msgstr ""
+#~ "قبل از شروع استفاده از افزونه پی پال، شما نیاز دارید تا برخی پیکربندی های "
+#~ "حساب پی پال خود را تنظیم کنید"
+
+#~ msgid ""
+#~ "Your Paypal account has to be set as Business or Premier, you could "
+#~ "change that at Your Profile, under My Settings"
+#~ msgstr ""
+#~ "حساب پی پال شما به عنوان حساب کسب و کار یا برتر تنظیم شد. شما می توانید "
+#~ "آن را از پروفایل شما، زیر تنظیمات من تغییر دهید"
+
+#~ msgid ""
+#~ "You need to sign in up for micropayments/digital good <a href=\"%s\">from "
+#~ "here</a>."
+#~ msgstr ""
+#~ "شما نیاز دارید برای پرداخت های خرد/دیجیتال خوب <a href=\"%s\">از اینجا</"
+#~ "a> وارد شوید."
+
+#~ msgid "Setting up your IPN"
+#~ msgstr "تنظیم IPN شما"
+
+#~ msgid "Click Profile on the My Account tab"
+#~ msgstr "بر روی پروفایل از تب اکانت من کلیک کنید"
+
+#~ msgid ""
+#~ "Click Instant Payment Notification Preferences in the Selling Preferences "
+#~ "column"
+#~ msgstr "بر روی موارد تذکرات پرداخت از ستون موارد فروش کلیک کنید"
+
+#, fuzzy
+#~ msgid ""
+#~ "Click Choose IPN Settings to specify your listener’s URL and activate the "
+#~ "listener (usually is http://www.yourdomain.com/oc-content/plugins/payment/"
+#~ "notify_url.php)"
+#~ msgstr ""
+#~ "کلیک کرده و تنظیمات IPN را انتخاب کنید آدرس شنونده های مشخص شما و شنونده "
+#~ "فعال (معمولا این http://www.yourdomain.com/oc-content/plugins/paypal/"
+#~ "notify_url.php است)"
+
+#~ msgid "How to obtain API credentials"
+#~ msgstr "چگونه اعتبار API را بگیریم"
+
+#~ msgid ""
+#~ "In order to use the Paypal plugin you will need Paypal API credentials, "
+#~ "you could obtain them for free following theses steps"
+#~ msgstr ""
+#~ "برای استفاده از افزونه پی پال شما به اعتبار API پی پال نیاز دارید. شما می "
+#~ "توانید آن ها برای گواهی نامه های زیر بدست آورید"
+
+#~ msgid ""
+#~ "Verify your account status. Go to your PayPal Profile under My Settings "
+#~ "and verify that your Account Type is Premier or Business, or upgrade your "
+#~ "account"
+#~ msgstr ""
+#~ "وضعیت اکانت خود را تایید کنید. به پروفایل پی پال خود در زیر تنظیمات من، "
+#~ "رفته و نوع اکانت خود که کسب و کار است یا برتر را تایید کنید، یا اکانت خود "
+#~ "را بروزرسانی کنید"
+
+#~ msgid ""
+#~ "Verify your API settings. Click on My Selling Tools. Click Selling Online "
+#~ "and verify your API access. Click Update to view or set up your API "
+#~ "signature and credentials"
+#~ msgstr ""
+#~ "تایید تنظیمات API  شما. روی ابزار فروش من کلیک کنید.سپس روی فروش آنلاین "
+#~ "کلیک کرده و API پذیرفته شده خود را تایید کنید. برای مشاهده روی بروزرسانی "
+#~ "کلیک کنید یا امضا API و اعتبار خود را تنظیم کنید"
+
+#, fuzzy
+#~ msgid "Bitcoin official website: %s"
+#~ msgstr "وبسایت برای عموم فعال شده"
+
+#, fuzzy
+#~| msgid "Settings faragate"
+#~ msgid "Getting started: %s"
+#~ msgstr "تنظیمات فراگیت"
+
+#, fuzzy
+#~ msgid "We use coins: %s"
+#~ msgstr "استفاده به عنوان نام"
+
+#, fuzzy
+#~ msgid "Blockchain"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~ msgid "Learn more about Braintree"
+#~ msgstr "فعال (وب‌سایت)"
+
+#, fuzzy
+#~ msgid "Braintree official website: %s"
+#~ msgstr "وبسایت برای عموم فعال شده"
+
+#, fuzzy
+#~ msgid "Stripe official website: %s"
+#~ msgstr "وبسایت برای عموم فعال شده"
+
+#, fuzzy
+#~ msgid "CoinJar official website: %s"
+#~ msgstr "وبسایت برای عموم فعال شده"
+
+#~ msgid "Card number"
+#~ msgstr "شماره کارت"
+
+#~ msgid "CVV"
+#~ msgstr "CVV"
+
+#~ msgid "Expiration (MM/YYYY)"
+#~ msgstr "تاریخ‌ انقضاء (MM/YYYY)"
+
+#~ msgid "Processing payment, please wait."
+#~ msgstr "پردازش پرداخت، لطفا صبر کنید"
+
+#~ msgid "Processing the payment, please wait"
+#~ msgstr "پردازش پرداخت، لطفا صبر کنید"
+
+#~ msgid "Warning! This payment was already paid"
+#~ msgstr "هزینه انتشار در حال حاضر پرداخت شده است"
+
+#~ msgid "There were an error processing your payment"
+#~ msgstr "یک مشکل در پرداخت شما رخ داد. لطفا با مدیران کل تماس بگیرید"
+
+#, fuzzy
+#~| msgid ""
+#~| "There were some errors, please try again later or contact the "
+#~| "administrators"
+#~ msgid "We are experiencing some errors, please try in a few moments"
+#~ msgstr ""
+#~ "تعدادی خطا رخ داد. لطفا بعدا دوباره امتحان کنید یا با مدیران کل تماس "
+#~ "بگیرید"
+
+#~ msgid ""
+#~ "You cancel the payment process or there was an error. If the error "
+#~ "continue, please contact the administrator"
+#~ msgstr ""
+#~ "شما از عملیات پرداخت انصراف داده اید یا یک خطا رخ داده است. اگر خطا ادامه "
+#~ "داشت، لطفا با مدیر کل تماس بگیرید"
+
+#, fuzzy
+#~| msgid ""
+#~| "We are processing your payment, if we did not finish in a few seconds, "
+#~| "please contact us"
+#~ msgid ""
+#~ "We are processing your payment, if we did not finish in a few minutes, "
+#~ "please contact us"
+#~ msgstr ""
+#~ "در حال پردازش پرداخت شما هستیم. اگر تا چند ثانیه پایان نپذیرفت، لطفا با "
+#~ "ما تماس بگیرید"
+
+#~ msgid "If you do not want to continue the process"
+#~ msgstr "اگر شما نمی خواهید عملیات را ادامه دهید"
+
+#~ msgid "click here"
+#~ msgstr "اینجا را کلیک کنید"
+
+#~ msgid ""
+#~ "We are processing your payment, if we did not finish in a few seconds, "
+#~ "please contact us"
+#~ msgstr ""
+#~ "در حال پردازش پرداخت شما هستیم. اگر تا چند ثانیه پایان نپذیرفت، لطفا با "
+#~ "ما تماس بگیرید"
+
+#~ msgid "Click here to continue"
+#~ msgstr "برای ادامه کلیک کنید"
+
+#~ msgid ""
+#~ "There was a problem processing your payment. Please contact the "
+#~ "administrators and"
+#~ msgstr "یک مشکل در پرداخت شما رخ داد. لطفا با مدیران کل تماس بگیرید و"
+
+#~ msgid ""
+#~ "There was a problem processing your payment. Please contact the "
+#~ "administrators"
+#~ msgstr "یک مشکل در پرداخت شما رخ داد. لطفا با مدیران کل تماس بگیرید"
+
+#, fuzzy
+#~| msgid "There were an error processing your payment"
+#~ msgid "Please wait a moment while we're processing your payment"
+#~ msgstr "یک مشکل در پرداخت شما رخ داد. لطفا با مدیران کل تماس بگیرید"
+
+#~ msgid "The Settings has been updated"
+#~ msgstr "تنظیمات بروزرسانی شد."
+
+#~ msgid "Settings nextpay"
+#~ msgstr "تنظیمات نکست پی"
+
+#~ msgid "enable nextpay"
+#~ msgstr "فعال کردن درگاه پرداخت نکست پی"
+
+#~ msgid "nextpay API"
+#~ msgstr "API نکست پی"
+
+#, fuzzy
+#~| msgid "The current fee for this category is: %d %s"
+#~ msgid "The current fee for this category is: %.2f %s"
+#~ msgstr "هزینه ارسال آگهی برای این دسته برابر است با: %d %s"
+
+#~ msgid "Paypal Options"
+#~ msgstr "تنظیمات پی پال"
+
+#~ msgid "Update"
+#~ msgstr "بروزرسانی"
+
+#~ msgid "Help"
+#~ msgstr "کمک"
+
+#~ msgid "Setting up your fees"
+#~ msgstr "تنظیم هزینه های شما"
+
+#~ msgid "You could set up different prices for each category"
+#~ msgstr "شما می توانید برای هر دسته قیمت متفاوتی را تنظیم کنید"
+
+#~ msgid ""
+#~ "If the price of a category is left empty, the default value will be "
+#~ "applied"
+#~ msgstr "اگر قیمت یک دسته خالی بماند، مقدار پیشفرض اعمال خواهد شد"
+
+#~ msgid "Currency (3-character code)"
+#~ msgstr "ارز (کد 3 کاراکتری)"
+
+#~ msgid "Pay to publish it"
+#~ msgstr "پرداخت برای انتشار آن"
+
+#~ msgid "Make this ad premium"
+#~ msgstr "تبدیل این آگهی به عنوان پریمیوم"
+
+#~ msgid ""
+#~ "You need to pay the publish fee in order to make the ad public to the "
+#~ "rest of users"
+#~ msgstr ""
+#~ "برای ایجاد آگهی عمومی به همه کاربران، شما نیاز دارید تا هزینه انتشار را "
+#~ "پرداخت کنید"
+
+#~ msgid "Sorry, this ad is not available at the moment"
+#~ msgstr "با عرض پوزش، این آگهی در حال حاضر در دسترس نیست"
+
+#~ msgid "User account manager"
+#~ msgstr "مدیریت حساب کاربر"
+
+#~ msgid "Your current credit is %.2f %s"
+#~ msgstr " اعتبار فعلی شما %.2f %s است"
+
+#~ msgid "Your current credit is %.1f %s"
+#~ msgstr " اعتبار فعلی شما %.1f %s است"
+
+#, fuzzy
+#~ msgid "enable demo nextpay"
+#~ msgstr "فعال کردن حالت دمو برای تست درگاه"
+
+#, fuzzy
+#~ msgid "nextpay Setting"
+#~ msgstr "تنظیمات نکست پی"
+
+#, fuzzy
+#~ msgid "enable demo faragate"
+#~ msgstr "فعال کردن حالت دمو برای تست درگاه"
+
+#, fuzzy
+#~ msgid "faragate Setting"
+#~ msgstr "تنظیمات فراگیت"
+
+#, fuzzy
+#~ msgid "General Setting"
+#~ msgstr "تنظیمات عمومی"
+
+#, fuzzy
+#~ msgid "Api Key:"
+#~ msgstr "شناسه آیتم"
+
+#, fuzzy
+#~ msgid "nextpay"
+#~ msgstr "تنظیمات نکست پی"
+
+#, fuzzy
+#~ msgid "faragate"
+#~ msgstr "تنظیمات فراگیت"
+
+#, fuzzy
+#~ msgid "Error! No action has been."
+#~ msgstr "هیچ عکسی برای لوگو آپلود نشده است."
+
+#, fuzzy
+#~ msgid "Error! Has already been paid."
+#~ msgstr "این فهرست از قبل وجود دارد"
+
+#, fuzzy
+#~ msgid "Your name"
+#~ msgstr "نام شما"
+
+#, fuzzy
+#~ msgid "Your email"
+#~ msgstr "ایمیل تست، %s"
+
+#, fuzzy
+#~ msgid "Your mobile"
+#~ msgstr "نمایه شما"
+
+#, fuzzy
+#~ msgid "To toman"
+#~ msgstr "بازگشت به %s"
+
+#, fuzzy
+#~ msgid "Description Payment"
+#~ msgstr "توضیحات صفحه"
